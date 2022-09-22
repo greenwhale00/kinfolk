@@ -1,0 +1,57 @@
+* {
+    outline: 1px dashed lime;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Vollkorn', serif;
+}
+
+.Wrapper {
+    min-width: 1830px;
+}
+
+.inner {
+    width: 1830px;
+    margin: 0 auto;
+}
+
+
+.Header {
+    .top_header {
+        display: none;
+        line-height: 90px;
+    }
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            width: 200px;
+        }
+
+        ul {
+            display: flex;
+            gap: 40px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        .icon {
+            width: 200px;
+            display: flex;
+            justify-content: flex-end;
+
+
+        }
+    }
+
+
+
+
+    .main_header {
+        line-height: 120px;
+        text-align: center;
+    }
+}
