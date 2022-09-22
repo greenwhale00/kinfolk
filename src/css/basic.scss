@@ -55,3 +55,36 @@ body {
         text-align: center;
     }
 }
+
+
+
+
+
+
+.Footer {
+
+    .inner {
+        border-top: 2px solid #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            gap: 30px;
+            font-weight: 600;
+        }
+
+        .left {
+            font-family: 'Pretendard';
+            gap: 15px;
+            font-size: 13px;
+
+        }
+
+        .sns {
+            font-weight: 600;
+        }
+    }
+}

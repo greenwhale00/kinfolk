@@ -1,0 +1,39 @@
+.MainVisual {
+    margin: 0 0 100px 0;
+}
+
+
+.MainContent {
+
+
+
+    .inner {
+        width: 1830px;
+
+
+        .inside {
+            display: flex;
+            gap: 30px;
+
+            .right {
+                display: flex;
+                gap: 30px;
+            }
+
+        }
+
+
+    }
+
+
+
+
+    .issue {
+        display: block;
+        font-size: 60px;
+        border-bottom: 2px solid #000;
+        margin-bottom: 40px;
+    }
+
+
+}
