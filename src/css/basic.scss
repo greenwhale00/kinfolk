@@ -1,5 +1,5 @@
 * {
-    outline: 1px dashed lime;
+    //outline: 1px dashed lime;
 }
 
 body {
@@ -19,9 +19,14 @@ body {
 
 .Header {
     .top_header {
-        display: none;
+
         line-height: 90px;
     }
+
+    // .top_header:hover {
+    //     display: block;
+    //     position: fixed;
+    // }
 
     .inner {
         display: flex;
@@ -47,15 +52,80 @@ body {
         }
     }
 
-
-
-
     .main_header {
+        display: none;
         line-height: 120px;
         text-align: center;
     }
 }
 
+
+.Store {
+    .name {
+        position: relative;
+
+        .frdes {
+            color: #333;
+            font-size: 30px;
+            position: absolute;
+            inset: 50% auto auto 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    }
+
+
+    .whole {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+
+    }
+
+    .one {
+        grid-column: 1 / 2;
+        grid-row: 1;
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .two {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .three {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .four {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .five {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .six {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        overflow: hidden;
+        height: 400px;
+    }
+}
 
 
 

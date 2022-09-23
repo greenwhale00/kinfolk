@@ -5,6 +5,8 @@ import NavMenu from './NavMenu';
 function Header() {
     return (
         <header className='Header'>
+
+
             <div className="top_header">
                 <div className="inner">
                     <h1>
@@ -20,6 +22,9 @@ function Header() {
                     </div>
                 </div>
             </div>
+
+
+
             <div className="main_header">
                 <Link to='/'>
                     <img src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt="" />

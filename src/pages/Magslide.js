@@ -7,6 +7,8 @@ import "swiper/css/navigation";
 
 import { Navigation } from "swiper";
 
+import '../css/Main.scss'
+
 
 const MAGSSLIDER = [
     { id: 1, link: "" },
@@ -28,49 +30,17 @@ const Magslide = () => {
                 navigation={true}
                 modules={[Navigation]}
                 className="mySwiper"
-            >
-                <SwiperSlide>
-                    <figure className='inner'>
-                        <img src={process.env.PUBLIC_URL + "/assets/images/slide01.png"} alt="" />
-                    </figure>
-                </SwiperSlide>
+            >{
+                    MAGSSLIDER.map((mag, idx) => {
+                        return (
+                            <SwiperSlide>
 
+                                <figure className='inner'>
+                                    <img src={process.env.PUBLIC_URL + `/assets/images/slide0${idx + 1}.png`} alt="" />
+                                </figure>
 
-                <SwiperSlide>
-                    <figure className='inner'>
-                        <img src={process.env.PUBLIC_URL + "/assets/images/slide02.png"} alt="" />
-                    </figure>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <figure className='inner'>
-                        <img src={process.env.PUBLIC_URL + "/assets/images/slide03.png"} alt="" />
-                    </figure>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <figure className='inner'>
-                        <img src={process.env.PUBLIC_URL + "/assets/images/slide04.png"} alt="" />
-                    </figure>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <figure className='inner'>
-                        <img src={process.env.PUBLIC_URL + "/assets/images/slide05.png"} alt="" />
-                    </figure>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <figure className='inner'>
-                        <img src={process.env.PUBLIC_URL + "/assets/images/slide06.png"} alt="" />
-                    </figure>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <figure className='inner'>
-                        <img src={process.env.PUBLIC_URL + "/assets/images/slide07.png"} alt="" />
-                    </figure>
-                </SwiperSlide>
+                            </SwiperSlide>)
+                    })}
 
             </Swiper>
 
