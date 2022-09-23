@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kinfolk/static/css/main.0bbf7104.css",
-    "main.js": "/kinfolk/static/js/main.94504755.js",
+    "main.css": "/kinfolk/static/css/main.0462f668.css",
+    "main.js": "/kinfolk/static/js/main.35ca09e5.js",
     "index.html": "/kinfolk/index.html",
-    "main.0bbf7104.css.map": "/kinfolk/static/css/main.0bbf7104.css.map",
-    "main.94504755.js.map": "/kinfolk/static/js/main.94504755.js.map"
+    "main.0462f668.css.map": "/kinfolk/static/css/main.0462f668.css.map",
+    "main.35ca09e5.js.map": "/kinfolk/static/js/main.35ca09e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bbf7104.css",
-    "static/js/main.94504755.js"
+    "static/css/main.0462f668.css",
+    "static/js/main.35ca09e5.js"
   ]
 }
